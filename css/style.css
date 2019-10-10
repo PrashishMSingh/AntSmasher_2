@@ -1,0 +1,39 @@
+.main-container{
+  width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+.gameOverWrapper{
+  position:absolute;
+  top: 50px;
+  width: 200px;
+  left: 18%;
+  background-color: #dcdcdc;
+  border-radius : 10px;
+  display:none;
+}
+
+.gameOverWrapper .title{
+  font-size: 24px;
+  padding: 10px;
+  background-color: red;
+  border-radius : 10px 10px 0 0 ;
+  color:#fcfcfc;
+  font-weight: bold;
+}
+
+.nextWrapper{
+  padding: 10px;
+}
+
+.nextBtn{
+  padding: 10px 20px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+}
+
+.score-wrapper{
+  padding: 30px 0;
+}
